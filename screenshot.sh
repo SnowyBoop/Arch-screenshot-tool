@@ -1,6 +1,6 @@
 #! /bin/bash
 
-output='/home/[username]/pictures/screenshots/%Y-%m-%d-%T-screenshot.png'
+output='/home/[username]/screenshots/%Y-%m-%d-%T-screenshot.png'
 
 #scrot "$output" --select --line mode=edge
 
