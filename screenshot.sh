@@ -1,6 +1,7 @@
 #! /bin/bash
 
-output='/home/[username]/screenshot/%Y-%m-%d-%T-screenshot.png'
+me="$(whoami)"
+output='/home/$me/screenshot/%Y-%m-%d-%T-screenshot.png'
 
 #scrot "$output" --select --line mode=edge
 
